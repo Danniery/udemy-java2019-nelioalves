@@ -1,9 +1,9 @@
-package aplicacao;
+package aplication;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidades.Conta;
+import entitie.Conta;
 
 public class AplBanco {
 

@@ -1,4 +1,4 @@
-package entidades;
+package entitie;
 
 public class Conta {
 	private int numeroConta;

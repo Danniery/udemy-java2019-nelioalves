@@ -1,9 +1,9 @@
-package aplicacao;
+package aplication;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidades.Funcionario;
+import entitie.Funcionario;
 
 public class AplFuncionario {
 

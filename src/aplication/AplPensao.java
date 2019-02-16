@@ -1,8 +1,8 @@
-package aplicacao;
+package aplication;
 
 import java.util.Scanner;
 
-import entidades.Aluguel;
+import entitie.Aluguel;
 
 public class AplPensao {
 

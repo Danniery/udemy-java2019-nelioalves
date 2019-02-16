@@ -3,7 +3,7 @@ package com.outros.exercicios;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidades.Produto;
+import entitie.Produto;
 
 public class Vetores02 {
 
