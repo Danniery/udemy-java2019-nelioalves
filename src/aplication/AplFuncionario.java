@@ -3,7 +3,7 @@ package aplication;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entitie.Funcionario;
+import entities.Funcionario;
 
 public class AplFuncionario {
 

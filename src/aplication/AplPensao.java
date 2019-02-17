@@ -2,7 +2,7 @@ package aplication;
 
 import java.util.Scanner;
 
-import entitie.Aluguel;
+import entities.Aluguel;
 
 public class AplPensao {
 

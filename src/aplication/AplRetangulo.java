@@ -3,7 +3,7 @@ package aplication;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entitie.Retangulo;
+import entities.Retangulo;
 
 public class AplRetangulo {
 

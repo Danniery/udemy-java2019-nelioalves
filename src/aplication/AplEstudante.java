@@ -3,7 +3,7 @@ package aplication;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entitie.Estudante;
+import entities.Estudante;
 
 public class AplEstudante {
 

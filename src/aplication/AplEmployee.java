@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entitie.Employee;
+import entities.Employee;
 
 public class AplEmployee {
 
