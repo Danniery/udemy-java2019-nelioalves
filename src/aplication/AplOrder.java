@@ -16,7 +16,6 @@ public class AplOrder {
 
 	public static void main(String[] args) throws ParseException {
 		
-		System.out.println("Commit usando o plugin do Eclipse");
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
