@@ -26,15 +26,15 @@ public class AplProduct {
 		int n = sc.nextInt();
 		sc.nextLine();
 		
-		for(int i=1; i<=n; i++) {
+		int i=1;
+		while(i<=n) {
 			System.out.println("Product #" + i + " data:");
 			System.out.print("Common, used or imported (c/u/i)? ");
 			char ch = sc.next().charAt(0);
 			
 			String name = "";
 			double price = 0.0;
-			
-			
+						
 			switch(ch) {
 				case 'i': 
 					sc.nextLine();
@@ -45,6 +45,7 @@ public class AplProduct {
 					System.out.print("Customs fee: ");
 					double customsFee = sc.nextDouble();
 					list.add(new ImportedProduct(name, price, customsFee));
+					i++;
 					break;
 				case 'c':
 					sc.nextLine();
@@ -53,6 +54,7 @@ public class AplProduct {
 					System.out.print("Price: ");
 					price = sc.nextDouble();
 					list.add(new Product(name, price));
+					i++;
 					break;
 				case 'u':
 					sc.nextLine();
@@ -63,10 +65,10 @@ public class AplProduct {
 					System.out.print("Manufacture date (DD/MM/YYYY): ");
 					Date manufactureDate = sdf.parse(sc.next()); 
 					list.add(new UsedProduct(name, price, manufactureDate));
+					i++;
 					break;
 				default:
-					System.out.println("Opção inválida!");
-					break;
+					System.out.println("Opção inválida!\n");
 			}
 		}
 		System.out.println();
@@ -75,7 +77,5 @@ public class AplProduct {
 			System.out.println(p.priceTag());
 		}
 		sc.close();
-
 	}
-
 }
