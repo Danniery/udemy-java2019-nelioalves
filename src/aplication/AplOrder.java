@@ -51,7 +51,7 @@ public class AplOrder {
 			System.out.print("Quantity: ");
 			int quantity = sc.nextInt();
 
-			OrderItem orderItem = new OrderItem(quantity, productPrice, product); 
+			OrderItem orderItem = new OrderItem(quantity, product); 
 
 			order.addItem(orderItem);
 		}
