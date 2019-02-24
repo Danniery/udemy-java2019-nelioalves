@@ -12,6 +12,7 @@ public class OrderItem {
 	public OrderItem(Integer quantity, Product product) {
 		this.quantity = quantity;
 		this.product = product;
+		return;
 	}
 
 	public Integer getQuantity() {
